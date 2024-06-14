@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(233, 228, 228);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.sliding{
+    margin-left: 3vw;
+}
+  .common {
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+  }
+
+  .upper-heading{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    padding-top: 2vh;
+  }
+  .effect{
+    color: gray;
+  }
+  .lower-slides{
+    height: 70vh;
+    width: 100%;
+    /* background-color: teal; */
+  }
+  .ss1{
+    background-image: url(apple1.jpg);
+    height: 40vh;
+    width: 40vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .ss2{
+    background-image: url(apple2.jpg);
+    height: 40vh;
+    width: 15vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .ss3{
+    background-image: url(apple3.jpg);
+    height: 40vh;
+    width: 15vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .ss4{
+    background-image: url(apple4.jpg);
+    height: 40vh;
+    width: 20vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .ss5{
+    height: 40vh;
+    width: 20vh;
+    
+    border-radius: 10px;
+  }
+  .up-swiper-slide{
+    background-image: url(apple5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .down-swiper-slide{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+  }
+  .down-swiper-slide i{
+    margin-top: 2vh;
+    font-size: 4vh;
+  }
+
+  .swipe-wrap h6{
+    color: gray;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-left: 3vh;
+  }
+  .swipe-wrap h3{
+    margin-left: 3vh;
+    margin-top: 4vh;
+    font-weight: 500;
+  }
+  .swipe-wrap p{
+    margin-left: 3vh;
+    font-size: 2.5vh;
+    font-weight: 100;
+    margin-top: 2vh;
+  }
+  .ss5 h6{
+    margin-top: 0%;
+    padding-top: 3vh;
+  }
+  
+  @media(min-width:1px) and (max-width:425px) {
+    .sliding{
+      margin-left: 0;
+    }
+    .upper-heading{
+      height: 10vh;
+      /* background-color: aqua; */
+      margin-left: 2vh;
+    }
+    .upper-heading h3{
+      font-size: 2vh;
+    }
+    .lower-slides{
+      margin-left: 2vh;
+    }
+  }
